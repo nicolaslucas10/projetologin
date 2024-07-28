@@ -51,19 +51,31 @@ section#login > div#formulario {
 
 main > section > div > p {
 
-padding: 6.7px;
+    padding: 6.7px;
 }
 
 main > section > div > form,h1 {
     text-align: center;
+    
 }
 
 main > section > div > h3 {
     text-align: center;
-    color: #463c34;
+    color: #ff953e;
+    box-shadow: 2px 2px 2px 2px #00000096;
+    border-radius: 20px;
 }
 
 main > section > div > h1 {
     text-align: center;
     color: #000000;
+}
+
+main > section > div > form > input {
+    background-color: #ff953e25;
+    
+} 
+
+.inp {
+    background-color: #4a3d32d1;
 }
