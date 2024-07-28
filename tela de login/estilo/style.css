@@ -24,14 +24,14 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-
     transform: translate(-50%,-50%);
-
     background-color: white;
     height: 500px;
     width: 250px;
     border-radius: 30PX;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.833);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
