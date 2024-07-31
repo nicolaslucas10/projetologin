@@ -82,4 +82,14 @@ main > section > div > form > input {
 
 .color > a {
     color: black;
+    text-align: center;
+font-size: .8em ;
 }
+
+
+.submit {
+    text-align: center;
+    padding: 5px;
+    margin: 13px;
+}
+
