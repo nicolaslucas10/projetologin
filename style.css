@@ -36,7 +36,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background:#4a3d32 url(imagens/Sofa-Retratil.jpg) no-repeat; 
+    background:#4a3d32 url(Sofa-Retratil.jpg) no-repeat; 
     background-size: cover;
     background-position: left bottom;
     height: 200px;
