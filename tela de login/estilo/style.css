@@ -79,3 +79,7 @@ main > section > div > form > input {
 .inp {
     background-color: #4a3d32d1;
 }
+
+.color > a {
+   color: black;
+}

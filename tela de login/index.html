@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+</head>
+<body>
+    <main>
+        <section id="login">
+          <div id="imagem">
+
+
+          </div>
+          <div id="formulario">
+              <h1>Rocha Decor</h1>
+              <h3>Login</h3>
+                 <p>
+                Seja bem-vindo(a), faça login para acessar sua conta.
+                 </p>
+
+                 <form action="formulario.php" method="post">
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="email" id="ilogin" name="login" placeholder="seu e-mail"  required>
+                        
+                        <label for="ilogin"><strong></strong></label>
+                        
+                    </div>
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="password" id="isenha" name="senha" required  placeholder="sua senha">
+                        <label for="senha"><strong></strong></label>
+                    </div>
+                    <div class="color">
+                        <input type="submit" value="Entrar"  class="inp">
+                        <a href="esqueci.html">Esqueci a Senha<i class="material-icons">mail</i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
