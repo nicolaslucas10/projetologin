@@ -78,12 +78,22 @@ main > section > div > form > input {
 
 .inp {
     background-color: #4a3d32d1;
+    width: 100%;
+    height: 30px;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+    border-radius: 5px;
 }
 
+.inp:hover{
+
+background-color: #4a3d32a2;
+}
 .color > a {
     color: black;
     text-align: center;
-font-size: .8em ;
+    font-size: .8em ;
+    text-decoration: ;
 }
 
 
